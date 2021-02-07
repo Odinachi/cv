@@ -1,0 +1,70 @@
+.head-container{
+    color:aliceblue;
+    background-color:rgb(45, 45, 136);
+    display: flex;
+    padding: 0.5cm;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#peronsal-info{
+    flex-grow: 1;
+    text-align: left;
+}
+#image {
+    flex-grow: 1;
+}
+#contact {
+    flex-grow: 1;
+    text-align: right;
+    
+}
+#pics {
+    height: 7cm;
+    width: 7cm;
+    border-radius: 50%;
+    border: solid;
+    border-width: 0.3cm;
+}
+.small-head {
+    font-size: small;
+}
+.p-s-h{
+    color: rgb(45, 45, 136);
+    padding-top: 2em;
+    font-family: fantasy;
+    font-size: larger;
+}
+.line{
+    border:rgb(45, 45, 136);
+    border-style: solid;
+    border-width: 0.1rem;
+}
+.p-s-c{
+    color:rgb(45, 45, 136);
+    font-size: large;
+    padding: 0.4cm;
+}
+.work-list{
+    display: flex;
+}
+.list-1{
+    flex-grow: 1;
+    padding: 0.1cm;
+}
+.list-2{
+    flex-grow: 1;
+    padding: 0.1cm;
+}
+.list-3{
+    flex-grow: 1;
+    padding: 0.1cm;
+}
+.list-4{
+    flex-grow: 1;
+    padding: 0.1cm;
+}
+.list-5{
+    flex-grow: 1;
+    padding: 0.1cm;
+}
